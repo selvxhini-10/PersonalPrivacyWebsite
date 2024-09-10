@@ -1,0 +1,355 @@
+<!-- Author: Selvahini Kamalarajan 
+Date: December 5, 2023 
+File Name: ai.html
+Description: Informational website about the implications of privacy and information technology usage -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Setting the Viewport and Initial Scale to control scaling and dimensions on screen-width of device-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Artificial Intelligence</title> <!--sets the website title-->
+
+  <!--links to css stylesheet-->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!--Links to Google Fonts used in website-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Rubik&display=swap" rel="stylesheet">
+
+  <!-- Google Fonts Material Symbol for back to top button-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+  <!--Nav Bar-->
+  <div class="mainheader">
+    <div class="nav">
+      <header>
+        <nav>
+          <a href="index.html"><span class="material-symbols-outlined">
+              home
+            </span>Home</a>
+          <!-- Dropdown Section -->
+          <div class="dropdown">
+            <button class="dropdown-button">Problems
+              <span class="material-symbols-outlined">arrow_drop_down</span>
+            </button>
+            <div class="dropdown-menu">
+              <a href="tracking.html">Data Tracking</a>
+              <a href="ai.html">Artificial Intelligence</a>
+              <a href="surveillance.html">Surveillance</a>
+            </div>
+          </div>
+          <a href="solutions.html"><span class="material-symbols-outlined">
+              lock
+            </span>Solutions</a>
+          <a href="quiz.html"><span class="material-symbols-outlined">
+              quiz
+            </span>Quiz</a>
+
+          <a href="citations.html" class="nav-right"><span class="material-symbols-outlined">
+              description
+            </span>Citations</a>
+
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <!-- Back to Top Button for User Friendliness-->
+  <a href="#" class="top-scroll">
+    <span class="material-symbols-outlined">
+      arrow_upward
+    </span>
+  </a>
+  
+  <!-- Prevents element from being positioned behind the navigation bar - adds padding to top-->
+  <video autoplay muted loop plays-inline width=100% height=auto id="banner-vid">
+    <source src="ai-banner.mp4" type="video/mp4">Aesthetic banner video
+  </video>
+  
+  <!-- Hero Banner Video -->
+  <div class="banner" style="padding-top: 90px">
+    <h1>
+      <font color="white"><b>Artificial Intelligence</b></font>
+    </h1>
+    <h5>
+      <font color="white"><i>The Impacts of Generative AI on Privacy </i></font>
+    </h5>
+  </div>
+
+  <div class="container">
+    <!--  Embed article -->
+    <iframe src="https://embed.acast.com/$/640a1cd5ceb41e0011e342da/deciphering-privacy-in-the-age-of-ai-an-expert-discussion?feed=true" frameBorder="0" width="100%" height="110px" allow="autoplay"></iframe>
+
+    <div class="row">
+      <div class="column">
+        <!-- AI Statistic Image-->
+        <img src="ai.png" alt="AI Statistic" height="800px" width="500px">
+
+      </div>
+      <div class="column">
+        <!--  Introduce Problem-->
+        <h1 style="color:#008080">The Problems</font>
+        </h1>
+        <h3>Identifying the concerns surrounding Artificial Intelligence</h3>
+
+        <p>Data privacy concerns have become increasingly prevalent due to the advancement of <b>generative artificial
+            intelligence.</b> AI systems often collect, process and store substantial amounts of personal information to
+          train their algorithms, improve performance and make predictions. This raises privacy concerns, particularly
+          concerning the usage of personal data. This personal data can be embedded in language models and cannot be
+          easily removed from the system. This presents a significant challenge as AI increases the risks of
+          inadvertently exploiting confidential information about individuals and allowing unauthorized access to
+          personal information. Databases of personal data fallen into the wrong hands of a cybercriminal could also
+          lead to identity theft, cyberbullying and harassment. <br>
+        </p>
+        <br>
+        <!--Embed Video about ChatGPT -->
+        <video height="300" width="500" controls>
+          <source src="chatgpt-vid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        
+      </div>
+    </div>
+
+    <br><br>
+    <center>
+      <div class="dark-bg">
+
+        <h2 style="color:white;">“As artificial intelligence evolves, it magnifies the ability to use personal
+          information in ways that can intrude on privacy interests by raising analysis of personal information to new levels of power and speed.”
+        </h2>
+        <br>
+        <p style="color: white;"><a href="https://www.brookings.edu/articles/protecting-privacy-in-an-ai-driven-world/"
+            style="color:white;"> - The Brookings Institution’s Artificial Intelligence and Emerging Technology (AIET)</a></p>
+
+
+    </center>
+
+    <br>
+    <div class="row">
+      <div class="column">
+        <!-- Introduce Impacts and Dangers of AI -->
+        <h1 style="color:#008080;text-align: left;">The Dangers of Technology</h1>
+        <p><br>In particular, one application of artificial intelligence algorithms includes <b>facial recognition
+            technology</b>, which can exacerbate privacy issues due to the lack of consent and transparency regarding
+          the usage of these systems. Machine learning has evolved to capture individual facial features to verify or locate
+          their identity in databases, leading to many ethical and legal privacy concerns about individuals being
+          tracked and identified without their knowledge or consent. From unlocking an iPhone to using filters on
+          Snapchat, facial recognition systems are prevalent in society today, and can be intrusive and invasive when
+          used for exploiting and tracking people. Explore some examples and implications of how artificial intelligence
+          systems can negatively impact society.
+        </p>
+      </div>
+      <div class="column">
+        <!--  Embed image and caption -->
+        <figure><img src="facial.png" alt="Facial Recognition Technology" width=600px></figure>
+        <figcaption>Facial Recognition Technology is increasing in popularity worldwide.
+        </figcaption>
+      </div>
+    </div>
+
+    <br>
+    <div class="gray-padded">
+
+      <h2>One third of facial recognition mistakes happen when attempting to identify women of colour. </h2>
+      <br>
+    </div>
+    <br><br>
+    <center>
+      <h1 style="color:#008080;">Privacy Concerns Relating to Facial Recognition Technology
+      </h1>
+    </center>
+   
+    <br><br>
+    <div class="dark-padded">
+      <!--  Accordion Dropdown Section for Examples -->
+      <ul id="accordion">
+        <li>
+          <label for="first">Data Theft<span class="material-symbols-outlined">
+              keyboard_arrow_down
+            </span></label>
+          <input type="radio" name="accordion" id="first" checked>
+          <div class="content">
+            <p>Databases of facial images, addresses and photos contain sensitive information about individuals, which
+              can
+              be vulnerable to exploitation and data breaches. Cybercriminals and malicious actors could hack this
+              database and gain access to facial recognition data for identity theft, stalking, deepfakes, robbery,
+              harassment, impersonation and online scamming. Since faces cannot be encrypted to keep them secure like
+              other types of data, they remain unprotected and AI makes it convenient to capture facial images to link
+              them to individuals. This democratization of personal data collection undermines individual privacy and
+              freedom in society. </p>
+          </div>
+        </li>
+        <li>
+          <label for="second">Bias and Discrimination
+            <span class="material-symbols-outlined">
+              keyboard_arrow_down
+            </span></label>
+          <input type="radio" name="accordion" id="second">
+          <div class="content">
+            <p>Facial recognition is prone to inherent judgemental bias and prejudice against marginalized groups,
+              especially women and people of colour, due to biased training data and programming. As a result, people
+              can be misidentified, convicted and wrongly accused of committing crimes — which can significantly alter
+              their lives, create long-term psychological trauma and ruin their self-worth and reputation. Authoritative
+              regimes can also abuse this technology to detect and target ethnic minorities. For example, China’s Huawei
+              developed facial recognition software to identify and report Uighurs to government officials. This misuse
+              of AI demonstrates how misidentification and inherent biases in technology systems can harm society’s most
+              vulnerable groups and enable authoritative regimes to invade privacy and commit genocide and acts of
+              violence.</p>
+          </div>
+        </li>
+        <li>
+          <label for="third">Freedom of Individual Privacy and Expression<span class="material-symbols-outlined">
+              keyboard_arrow_down
+            </span></label>
+          <input type="radio" name="accordion" id="third">
+          <div class="content">
+            <p>Facial recognition and AI systems are an evident infringement of personal privacy, expression and
+              freedom. The thought of being monitored and surveilled can cause negative psychological effects, emotional
+              stress and erode trust between people and the social fabric. People will feel discouraged and unmotivated
+              from political activism due to their lack of privacy. For example, AI is used for mass surveillance and
+              population control in demonstrations and protests, especially in totalitarian countries. During 2020, the
+              San Francisco Police Department accessed over 400 cameras to spy on protestors, exemplifying that
+              technologies can often be manipulated to restrict people’s freedom of speech and expression and right to
+              anonymity.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <br><br>
+    <center>
+      <!--  Introduce ChatGPT as Real world example -->
+      <h1 style="color:#008080;">Real World Example</a></h1>
+      <h3>ChatGPT and Associated Privacy Risks</h3>
+    </center>
+    <div class="row">
+
+      <div class="column">
+        <img src="chatgpt.png" alt="People affected by Pegasus Software" width=500px>
+
+      </div>
+      <div class="column">
+        <p>ChatGPT is a popular language processing tool capable of holding conversations based on user prompts, and it
+          entails significant implications for user privacy. ChatGPT is not confidential since it collects, stores and
+          uses all personal information, prompts, chat history and messages with the user to train its model as stated
+          in their privacy policy. This collection of identifier data poses many security and privacy risks for users in
+          cases of potential <b>data breaches </b> and <b>violations</b>.
+        </p>
+      </div>
+    </div>
+    <h1 align="center" style="color:#008080">ChatGPT Privacy Policy Statements</a></h1>
+    <h3 align="center">Discover How Artificial Intelligence Can Use Your Data</h3>
+    <br>
+    <div class="gray-padded">
+
+      <p> “(5) Who can view my conversations? As part of our commitment to safe and responsible AI, we review
+        conversations to improve our systems and to ensure the content complies with our policies and safety
+        requirements.”
+      </p>
+
+    </div>
+    <br><br>
+
+    <div class="gray-padded">
+
+      <p> “We collect information that alone or in combination with other information in our possession could be used to
+        identify you (“Personal Information”)”
+
+      </p>
+
+    </div>
+    <br><br>
+    <div class="gray-padded">
+
+      <p> “(8) Can you delete specific prompts? No, we are not able to delete specific prompts from your history. Please
+        don't share any sensitive information in your conversations.”
+
+      </p>
+
+    </div>
+    <br><br>
+
+
+    <!-- Tips and Resources -->
+    <div class="gray-bg">
+
+      <h1 style="text-align: center;">
+        <font color="#008080">TIPS TO SAFEGUARD PRIVACY</font>
+      </h1>
+      <br>
+      <ul>
+        <li>Anti recognition makeup / Face covering or masks
+          <ul>
+
+            <li>Consider wearing a mask in locations where facial recognition is being used</li>
+          </ul>
+        </li>
+        <li>Opt out of facial scans
+          <ul>
+            <li>You have a choice in opting out of facial recognition scans at airports and other institutions </li>
+          </ul>
+        </li>
+        <li>Limit posting and tagging on social media
+          <ul>
+            <li>Every social media profile creates a risk for privacy breaches. For example, Clearview AI created a
+              facial
+              recognition app to view all public pictures of a person on social media.
+            </li>
+          </ul>
+        </li>
+        <li>Be aware of smart home devices
+          <ul>
+            <li>Google Nest Hub Max has a built-in Face Match technology that allows you to unlock your smart home
+              device
+              with your face. Face Match scans your environment and faces to display personalized content to each
+              person.
+              It’s advised to turn off this feature.
+            </li>
+          </ul>
+        </li>
+        <li>Don’t share confidential personal information with AI chatbots, algorithms or forums </li>
+      </ul>
+    </div>
+  </div>
+  
+  <!--  Footer Section -->
+  <footer>
+    <div class="col-3">
+      <h4>DISCOVER INFORMATION</h4>
+      <a href="index.html">Home</a>
+      <a href="tracking.html">Data Tracking</a>
+      <a href="ai.html">Artificial Intelligence</a>
+      <a href="surveillance.html">Electronic Surveillance</a>
+      <a href="solutions.html">Solutions</a>
+      <br>
+      <p>Developed by Selvahini Kamalarajan</p>
+    </div>
+    <div class="col-3">
+      <h4>TEST YOUR KNOWLEDGE</h4>
+      <a href="quiz.html">Quiz</a>
+      <br><br>
+      <h4>CITATIONS</h4>
+      <a href="citations.html">Citations Used</a>
+    </div>
+
+    <div class="col-3">
+      <h4>ACCESSIBILITY</h4>
+      <p> This website is committed to upholding accessibility standards to provide information that is accessible to
+        everyone, regardless of circumstance and ability. It aims to adhere as closely as possible to the Web Content
+        Accessibility Guidelines (WCAG 2.0, Level AA), published by the World Wide Web Consortium (W3C). </p>
+
+    </div>
+  </footer>
+</body>
+
+</html>

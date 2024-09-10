@@ -1,0 +1,364 @@
+<!-- Author: Selvahini Kamalarajan 
+Date: December 5, 2023 
+File Name: index.html  
+Description: Informational website about the implications of privacy and information technology usage -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Setting the Viewport and Initial Scale to control scaling and dimensions on screen-width of device-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Personal Privacy</title>
+  <!--sets the website title-->
+
+  <!--links to css stylesheet and javascript-->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  
+  <!--Links to Google Fonts used in website-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Rubik&display=swap" rel="stylesheet">
+
+  <!-- Google Fonts Material Symbol for back to top button-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+  <!--Nav Bar-->
+  <div class="mainheader">
+    <div class="nav">
+      <header>
+        <nav>
+          <a href="index.html"><span class="material-symbols-outlined">
+              home
+            </span>Home</a>
+
+          <div class="dropdown">
+            <button class="dropdown-button">Problems
+              <span class="material-symbols-outlined">arrow_drop_down</span>
+            </button>
+            <div class="dropdown-menu">
+              <a href="tracking.html">Data Tracking</a>
+              <a href="ai.html">Artificial Intelligence</a>
+              <a href="surveillance.html">Surveillance</a>
+            </div>
+          </div>
+          <a href="solutions.html"><span class="material-symbols-outlined">
+              lock
+            </span>Solutions</a>
+          <a href="quiz.html"><span class="material-symbols-outlined">
+              quiz
+            </span>Quiz</a>
+
+          <a href="citations.html" class="nav-right"><span class="material-symbols-outlined">
+              description
+            </span>Citations</a>
+
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <!-- Back to Top Button for User Friendliness-->
+  <a href="#" class="top-scroll">
+    <span class="material-symbols-outlined">
+      arrow_upward
+    </span>
+  </a>
+
+  <!-- Hero Banner for Website -->
+  <video autoplay muted loop plays-inline width=100% height=auto id="banner-vid">
+    <source src="home-banner.mp4" type="video/mp4">Homepage Hero Banner
+  </video>
+
+  <div class="banner">
+    <h1>
+      <font color="white"><b>Personal Privacy</b></font>
+    </h1>
+    <h5>
+      <font color="white"><i>The Implications in a Computing World</i></font>
+    </h5>
+  </div>
+
+  <br>
+
+  <!-- Introduces Problem -->
+  <div class="row">
+    <div class="column">
+      <h1>
+        <font color="#008080">Build Your Protective Shield in a Digital World</font>
+      </h1>
+      <h3>Safeguard Your Privacy Today for a Better Tomorrow</h3>
+    </div>
+    <div class="column">
+      <button class="on-click" onclick="window.location.href='https://www.npr.org/2020/10/09/922262686/your-technology-is-tracking-you-take-these-steps-for-better-online-privacy'">Learn More!</button>
+      
+    </div>
+  </div>
+  <!--Adds image in first column -->
+  <div class="row">
+    <div class="column">
+      <img src="privacy.jpg" alt="Privacy Image" height="800px" width="500px">
+
+    </div>
+    <div class="column">
+      <!-- Adds background information in second column-->
+      <h1 style="color:#008080;">What is Personal Privacy?</h1>
+
+      <p>Personal privacy refers to the fundamental human right and ability to control and protect one’s personal
+        information and data. As stated in a Harvard Law Review article <i><a
+            href="https://www.jstor.org/stable/1321160">"The Right to Privacy”</a></i>, privacy can be
+        defined as “the right to be let alone." People should be able to determine the extent to which their personal
+        information is collected, processed and used by others. Personal data includes any confidential and sensitive
+        information that can be used to identify an individual such as credit card numbers, social security numbers,
+        health records and other identifying information. Privacy ensures this information is kept secure from
+        unauthorized access.<br><br>
+      </p>
+      <center>
+        <figure>
+          <!-- Adds picture with caption-->
+          <img src="facebook.jpeg" alt="Facebook data breaches" width=600px>
+        </figure>
+        <figcaption>Safeguarding privacy has become an arduous challenge in modern society.
+        </figcaption>
+      </center>
+
+    </div>
+  </div>
+
+  <div class="container">
+  <!-- Adds more information about Facebook Data Breach -->
+    <h1 align="center" style=color:#008080>Read About <a
+        href="https://www.npr.org/2021/04/09/986005820/after-data-breach-exposes-530-million-facebook-says-it-will-not-notify-users">Facebook's
+        Data Breach 2019</a></h1>
+
+    <div class="row">
+
+      <div class="column">
+        <!-- Adds image -->
+        <figure><img src="facebook-2.png" alt="Facebook data breaches" width=500px></figure>
+        <figcaption>Facebook's Largest Data Breach in 2019
+        </figcaption>
+      </div>
+      <div class="column">
+        <!--  Background Information about Data Breach-->
+        <p>In 2019, over 530 million people’s personal Facebook data, including phone numbers, names, locations and
+          email
+          addresses were leaked. This leaked user profile data represented users in 106 countries and were posted to a
+          hacker forum after malicious actors exploited a vulnerability in the system. While this data leak may seem
+          trivial, users became increasingly vulnerable as a result. </p>
+
+        <p><b>Read More about the Story</b></p>
+        <!-- Link to article -->
+        <iframe
+          src="https://www.npr.org/2021/04/09/986005820/after-data-breach-exposes-530-million-facebook-says-it-will-not-notify-users"
+          height="350" width="600" title="Facebook Data Breach Exposes 530 Million"></iframe>
+      </div>
+    </div>
+    
+  <!-- Describe the Impacts of Technology on Personal Privacy -->
+    <h1 style="color:#008080;text-align: left;">The Impacts</h1>
+    <p><br>Information technology poses a greater risk to personal privacy today than ever before. Advancements in
+      generative artificial intelligence, data tracking and collection and mass electronic surveillance and spyware can
+      lead to unauthorized access to confidential personal information. Corporations and government agencies regularly
+      collect and process personal information and applications and websites track data and browsing
+      habits to provide personalized user experiences and products. The detrimental impacts of these technologies and
+      automated systems for storing and collecting information, from sensor networks, tracking cookies, social media,
+      facial recognition technology, search engines, big data and technology to government cybersecurity programs lead
+      to numerous unprecedented moral, social, political and legal issues in society. </p>
+
+    <br><br>
+    
+    <div class="gray-padded">
+    <!-- Add Quote to emphasize issue -->
+      <h2>“Scammers can do an enormous amount with little information from us.” </h2>
+      <p style="color: #008080;"> - Cybersecurity expert Adam Levin </p>
+
+    </div>
+    <br><br>
+  </div>
+
+  <!-- Interactive Form Section/Quiz-->
+  <div class="gray-bg">
+
+    <div class="row">
+      <div class="column">
+        <h2>Do you always read and accept the terms and conditions in privacy policies?</h2>
+        <!-- Add form id and label for quiz -->
+        <form id="quiz" name="quiz">
+
+          <input type="radio" class="mc" name="question" value="yes" />
+          Yes
+          <br> <input type="radio" class="mc" name="question" value="no" />
+          No
+
+          <br><br>
+
+          <input id="submit" type="button" value="Submit" onclick="check();" />  <!-- Submit Button -->
+         
+        </form>
+
+        <div id="after_submit">
+          <p id="message"></p>
+          <img id="picture" class="picture" />
+        </div>
+      </div>
+
+      <div class="column">
+      <!-- Add Image and Caption -->
+        <figure><img src="privacy-policy.jpg" alt="Privacy Policies" width=600px></figure>
+        <figcaption>Canadian Privacy Policies Document</figcaption>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Importance of  Personal Privacy-->
+  <div class="row">
+    <div class="column">
+      <img src="infographic.jpg" alt="Infographic" height="800px" width="500px">
+
+    </div>
+    <div class="column">
+      <h1 style="color:#008080">Why is Personal Privacy Important?</h1>
+
+      <p>In the age of modern computing, the protection of data and disclosure of personal information such as financial
+        information and phone numbers continues to be imperative issues as they can be compromised in data breaches,
+        cybercrimes, electronic intercepts, identity
+        theft, fraud and more. People should be aware of these intrusions, and mandate boundaries regarding their
+        preferences and data collection. Personal privacy is a fundamental human right that is necessary to ensure
+        people’s personal autonomy, freedom of expression, integrity and social safety. The responsible and ethical
+        usage of technology is imperative to prevent the misuse of personal identity and autonomy. <br><br>
+      </p>
+      <figure>
+        <!-- Add Image and Caption-->
+        <img src="concerns.jpg" alt="Privacy Concerns" width=620px;>
+      </figure>
+      <figcaption>There are many security threats to personal data collection.
+      </figcaption>
+      <br>
+    </div>
+  </div>
+  
+  <div class="gray-padded">
+
+    <h2>Personal data continues to be a valuable commodity in today’s market.</h2>
+
+  </div>
+  <br><br>
+  </div>
+
+  <!-- Importance of Privacy; Continued -->
+  <h1 align="center" style="color:#008080">A New Era of Privacy</h1>
+  <div class="row">
+
+    <div class="column">
+      <!-- Add Image -->
+      <img src="statistic.jpg" alt="Privacy Statistic" width=600px>
+
+    </div>
+    <div class="column">
+      <!-- Elaborate on Impacts -->
+      <p>Social media platforms and corporations collect and use personal data to generate profit through direct
+        advertising and predictive analytics, gain insights about consumer experiences and make corporate decisions—and
+        these can be done without the knowledge or consent from users. </p>
+      <br>
+      <!-- Embedded Website -->
+      <iframe src="https://globalnews.ca/video/embed/9522631/" width="600" height="300" frameborder="0" allowfullscreen
+        scrolling="no"></iframe>
+
+    </div>
+  </div>
+
+  <div class="gray-bg">
+    <!-- Interactive Section; provide resources for safeguarding email addresses -->
+    <div class="row">
+      <div class="column">
+        <h2>How Secure is Your Email Address? Click <a href="https://haveibeenpwned.com/">here </a>to test whether your
+          email address has been pwned in a data breach.
+        </h2>
+        <br><br>
+        <p><b>TIP:</b> Make sure not to fall for phishing scams and beware of spam and unwanted senders.</p>
+      </div>
+      <div class="column">
+
+        <img src="pwned.png" alt="Email Pwned" width=400px>
+
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <div class="container">
+    <!-- Introduction to subtopics -->
+    <h1 style=color:#008080>Explore Personal Privacy Topics</h1>
+    <h3>Delve deeper into specific personal privacy issues found in information technology and learn more about how
+      your sensitive personal information and data can be collected in diverse ways. </h3>
+    <p>Personal privacy is a broad and complex problem that entails many implications and ramifications depending on
+      different technologies. Privacy issues can generally be divided into specific sub-categories to understand the
+      relevance and importance of this overarching problem through various perspectives, social lens and consequences.
+    </p>
+
+  </div>
+  <br>
+  
+  <!-- Introduce subtopics -->
+  <div class="row" style="background-color: #33333;">
+    <div class="col-3">
+      <div class="card" style="height:200px">
+        
+        <h2><a href="tracking.html">Data Tracking and Collection</a></h2>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card" style="height:200px">
+        
+        <h2><a href="ai.html">Artificial Intelligence</a></h2>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card" style="height:200px">
+      
+        <h2><a href="surveillance.html">Electronic Surveillance and Spyware</a></h2>
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+<!-- Footer for webpages -->
+  <footer>
+    <div class="col-3">
+      <h4>DISCOVER INFORMATION</h4>
+      <a href="index.html">Home</a>
+      <a href="tracking.html">Data Tracking</a>
+      <a href="ai.html">Artificial Intelligence</a>
+      <a href="surveillance.html">Electronic Surveillance</a>
+      <a href="solutions.html">Solutions</a>
+      <br>
+      <p>Developed by Selvahini Kamalarajan</p>
+    </div>
+    <div class="col-3">
+      <h4>TEST YOUR KNOWLEDGE</h4>
+      <a href="quiz.html">Quiz</a>
+      <br><br>
+      <h4>CITATIONS</h4>
+      <a href="citations.html">Citations Used</a>
+    </div>
+
+    <div class="col-3">
+      <h4>ACCESSIBILITY</h4>
+      <p> This website is committed to upholding accessibility standards to provide information that is accessible to
+        everyone, regardless of circumstance and ability. It aims to adhere as closely as possible to the Web Content
+        Accessibility Guidelines (WCAG 2.0, Level AA), published by the World Wide Web Consortium (W3C). </p>
+
+    </div>
+  </footer>
+</body>
+
+</html>

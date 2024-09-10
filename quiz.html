@@ -1,0 +1,287 @@
+<!-- Author: Selvahini Kamalarajan 
+  Date: December 5, 2023 
+  File Name: quiz 
+  Description: Informational website about the implications of privacy and information technology usag -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Setting the Viewport and Initial Scale to control scaling and dimensions on screen-width of device-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Personal Privacy</title>
+  <!--sets the website title-->
+
+  <!--links to css stylesheet and javascript-->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+
+  <!--Links to Google Fonts used in website-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Rubik&display=swap" rel="stylesheet">
+
+  <!-- Google Fonts Material Symbol for back to top button-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+  <!--Nav Bar-->
+  <div class="mainheader">
+    <div class="nav">
+      <header>
+        <nav>
+          <a href="index.html"><span class="material-symbols-outlined">
+              home
+            </span>Home</a>
+
+          <div class="dropdown">
+            <button class="dropdown-button">Problems
+              <span class="material-symbols-outlined">arrow_drop_down</span>
+            </button>
+            <div class="dropdown-menu">
+              <a href="tracking.html">Data Tracking</a>
+              <a href="ai.html">Artificial Intelligence</a>
+              <a href="surveillance.html">Surveillance</a>
+            </div>
+          </div>
+          <a href="solutions.html"><span class="material-symbols-outlined">
+              lock
+            </span>Solutions</a>
+          <a href="quiz.html"><span class="material-symbols-outlined">
+              quiz
+            </span>Quiz</a>
+
+          <a href="citations.html" class="nav-right"><span class="material-symbols-outlined">
+              description
+            </span>Citations</a>
+
+        </nav>
+      </header>
+    </div>
+  </div>
+  <video autoplay muted loop plays-inline width=100% height=auto id="banner-vid">
+    <source src="quiz-banner.mp4" type="video/mp4">Aesthetic banner video
+  </video>
+
+  <div class="banner">
+    <h2>
+      <font color="white"><b>Test Your Knowledge!</b></font>
+    </h2>
+    <h5>
+      <font color="white"><i>How Well Do You Know Privacy? Take the Quiz to Find Out!</i></font>
+    </h5>
+  </div>
+
+  <!-- Back to Top Button for User Friendliness-->
+  <a href="#" class="top-scroll">
+    <span class="material-symbols-outlined">
+      arrow_upward
+    </span>
+  </a>
+
+  <!-- Privacy Quiz Trivia -->
+  <div class="row">
+    <div class="column">
+      <h1>
+        <font color="#008080">Enhance Your Privacy Knowledge</font>
+      </h1>
+      <h3>Good Luck!</h3>
+    </div>
+    <div class="column">
+      <!-- Hide and Show Quiz Questions on Click -->
+      <button class="on-click" onclick="start()">Start Quiz!</button>
+    </div>
+  </div>
+
+  <div class="dark-padded">
+    <!-- Display 10 Quiz Questions in JavaScript Form -->
+    <form id="quiz" style="display:none" name="quiz">
+      <!-- Display Question and Multiple Choice Options-->
+      <h3 class="questions">1. How can you recognize a secure website for online shopping?
+      </h3>
+      <input type="radio" class="mc" name="q1" value="a" />Many Pop-Up Ads <br>
+      <input type="radio" class="mc" name="q1" value="b" />URL contains "HTTPS" <br>
+      <input type="radio" class="mc" name="q1" value="b" />Address Bar has Padlock icon<br>
+      <input type="radio" class="mc" name="q1" value="d" />Website is Aesthetic<br>
+
+      <br>
+      <!-- Second Question -->
+      <h3 class="questions">2. What is the purpose of privacy policies on websites? </h3>
+      <input type="radio" class="mc" name="q2 value=" a" />
+      To Limit User Choices <br>
+      <input type="radio" class="mc" name="q2" value="b" />
+      To explain how your data will be handled <br>
+      <input type="radio" class="mc" name="q2" value="b" />
+      To showcase the website's design <br>
+
+      <input type="radio" class="mc" name="q2" value="d" />
+      To Sell Personal Information<br>
+
+      <br>
+      <!-- Third Question -->
+      <h3 class="questions">3. What is the purpose of privacy settings on social media?
+
+      </h3>
+      <input type="radio" class="mc" name="q3" value="a" />
+      To limit who can view your profile
+
+      <br><input type="radio" class="mc" name="q3" value="b" />
+      To Share Information Publicly
+      <br><input type="radio" class="mc" name="q3" value="b" />
+      To make your posts become viral
+      <br><input type="radio" class="mc" name="q3" value="d" />
+      To customize content preferences <br>
+
+      <br>
+      <!-- Fourth Question -->
+      <h3 class="questions">4. What makes up a strong password?
+
+      </h3>
+      <input type="radio" class="mc" name="q4" value="a" />
+      Doesn't contain special characters
+      <br><input type="radio" class="mc" name="q4" value="b" />
+      Can include your name
+      <br><input type="radio" class="mc" name="q4" value="b" />
+      At least 4 characters
+      <br><input type="radio" class="mc" name="q4" value="d" />Contains lowercase and uppercase letters<br>
+
+
+      <br>
+      <!-- Fifth Question -->
+      <h3 class="questions">5. What is the purpose of "incognito" or "private browsing" modes in web browsers?
+      </h3>
+      <input type="radio" class="mc" name="q5" value="a" />
+      To order secret snacks online
+
+      <br><input type="radio" class="mc" name="q5" value="b" />
+      To hide your browsing history from others using the same device
+
+      <br><input type="radio" class="mc" name="q5" value="b" />
+      For more efficient search results
+
+      <br><input type="radio" class="mc" name="q5" value="d" />
+      To enable tracking cookies<br>
+      <br>
+      <!-- Question 6 -->
+      <h3 class="questions">6. How can you protect your personal privacy when using public Wi-Fi networks?
+      </h3>
+      <input type="radio" class="mc" name="q6" value="a" />
+      By using the same password everywhere<br>
+
+      <input type="radio" class="mc" name="q6" value="b" />
+      By sharing your location with everyone
+
+      <br><input type="radio" class="mc" name="q6" value="b" />
+      By avoiding public Wi-Fi altogether
+
+      <br><input type="radio" class="mc" name="q6" value="d" />
+      By using a virtual private network (VPN) <br>
+
+      <br> <!-- Question 7-->
+      <h3 class="questions">7. Why should you be cautious about sharing personal information online?
+      </h3>
+      <input type="radio" class="mc" name="q7" value="a" />
+      To remain a mystery to your friends<br>
+
+      <input type="radio" class="mc" name="q7" value="b" />
+      To prevent identity theft and scams<br>
+
+      <input type="radio" class="mc" name="q7" value="b" />
+      To Support Cybersecurity Attacks<br>
+      <input type="radio" class="mc" name="q7" value="d" />
+      To prevent surveillance <br>
+      <br>
+      <!-- Question 8-->
+      <h3 class="questions">8. What does "phishing" refer to in terms of personal privacy?
+
+      </h3>
+      <input type="radio" class="mc" name="q8" value="a" />
+      A new fishing technique<br>
+
+      <input type="radio" class="mc" name="q8" value="b" />
+      A scam to trick you into revealing sensitive information
+      <br>
+
+      <input type="radio" class="mc" name="q8" value="b" />
+      A suspicious email address<br>
+      <input type="radio" class="mc" name="q8" value="d" />
+      Accesses confidential information<br>
+
+      <br> <!-- Question 9 -->
+      <h3 class="questions">9. Why should you use two-factor authentication?
+      </h3>
+      <input type="radio" class="mc" name="q9" value="a" />
+      To make logging in more efficient <br>
+
+      <input type="radio" class="mc" name="q9" value="b" />
+      To confuse hackers with multiple passwords<br>
+
+      <input type="radio" class="mc" name="q9" value="b" />
+      To add a double layer of security<br>
+      <input type="radio" class="mc" name="q9" value="d" />
+      To receive double the number of notifications<br>
+
+      <br> <!-- Question 10 -->
+      <h3 class="questions">10. What information can websites collect about you?<br>
+
+      </h3>
+      <input type="radio" class="mc" name="q10" value="a" />
+      IP Address<br>
+
+      <input type="radio" class="mc" name="q10" value="b" />
+      Browsing history<br>
+
+
+      <input type="radio" class="mc" name="q10" value="b" />
+      Online Shopping Habits<br>
+      <input type="radio" class="mc" name="q10" value="d" />
+      All of the above<br>
+
+      <br><br>
+      <!-- Submit button-->
+      <input id="submit" type="button" value="Submit" onclick="checkAns();">
+
+    </form>
+
+    <div id="after_submit">
+      <p id="number_correct"></p>
+      <p id="message"></p>
+      <img id="picture" width="500px" />
+    </div>
+  </div>
+
+  <footer>
+    <div class="col-3">
+      <h4>DISCOVER INFORMATION</h4>
+      <a href="index.html">Home</a>
+      <a href="tracking.html">Data Tracking</a>
+      <a href="ai.html">Artificial Intelligence</a>
+      <a href="surveillance.html">Electronic Surveillance</a>
+      <a href="solutions.html">Solutions</a>
+      <br>
+      <p>Developed by Selvahini Kamalarajan</p>
+    </div>
+    <div class="col-3">
+      <h4>TEST YOUR KNOWLEDGE</h4>
+      <a href="quiz.html">Quiz</a>
+      <br><br>
+      <h4>CITATIONS</h4>
+      <a href="citations.html">Citations Used</a>
+    </div>
+
+    <div class="col-3">
+      <h4>ACCESSIBILITY</h4>
+      <p> This website is committed to upholding accessibility standards to provide information that is accessible to
+        everyone, regardless of circumstance and ability. It aims to adhere as closely as possible to the Web Content
+        Accessibility Guidelines (WCAG 2.0, Level AA), published by the World Wide Web Consortium (W3C). </p>
+
+    </div>
+  </footer>
+</body>
+
+</html>
