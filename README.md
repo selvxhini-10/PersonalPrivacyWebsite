@@ -11,7 +11,7 @@ The primary goal of this website is to raise awareness about the importance of p
 - Privacy Protection Tips: Practical measures individuals can take to enhance their privacy online.
 - Interactive Tools: Tools and checklists to assess and improve personal privacy settings.
 
-##Technologies Used 
+## Technologies Used 
 - HTML5: For the structure and content of the website.
 - CSS3: For styling and layout to ensure a responsive and user-friendly design.
 
