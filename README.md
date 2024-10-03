@@ -3,7 +3,7 @@
 ## Overview
 Welcome to [Safeguarding Personal Privacy](https://selvxhini-10.github.io/PersonalPrivacyWebsite/)! This website explores the critical implications of personal privacy protection in our modern technological era. As our lives become increasingly intertwined with digital platforms, understanding how to safeguard our personal information is more important than ever. 
 
-##Purpose
+## Purpose
 The primary goal of this website is to raise awareness about the importance of personal privacy and to assist individuals in implementing effective privacy protection measures. By providing valuable insights and practical tips, the project aims to empower users to navigate our connected world safely.
 
 ## Key Features
